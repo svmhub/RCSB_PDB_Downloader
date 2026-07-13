@@ -32,3 +32,7 @@ python rcsb_api_downloader.py --start 2024-01-01 --end 2024-06-30 --format cif
 
 4. Save to a custom folder
 python rcsb_api_downloader.py --start 2024-01-01 --end 2024-06-30 --output-dir /my/data/folder
+
+  Note: It is made as very easy based on their RCSB API key in the main website. It is very much useful for R & D Laboratories. We can improve it any point of time, only through study the API key from their wewsite. 
+
+Hence, I have done it successfully!!!✨🫰😍
