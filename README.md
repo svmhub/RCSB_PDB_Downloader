@@ -21,16 +21,16 @@ python rcsb_pdb_download_by_pdbid.py --ids 1ABC --file my_list.txt
 
 ***Script 1***
 
-1. Download all PDB files released between two dates
+1. Download all PDB files released between two dates   
 python rcsb_pdb_downloader_by_between_dates.py --start 2024-01-01 --end 2024-06-30
 
-2. Just get the ID list first, without downloading files (fast check)
+2. Just get the ID list first, without downloading files (fast check)   
 python rcsb_pdb_downloader_by_between_dates.py --start 2024-01-01 --end 2024-06-30 --ids-only
 
-3. Download as .cif format instead of .pdb
+3. Download as .cif format instead of .pdb   
 python rcsb_pdb_downloader_by_between_dates.py --start 2024-01-01 --end 2024-06-30 --format cif
 
-4. Save to a custom folder
+4. Save to a custom folder   
 python rcsb_pdb_downloader_by_between_dates.py --start 2024-01-01 --end 2024-06-30 --output-dir /my/data/folder
 
   Note: It is made as very easy based on their RCSB API key in the main website. It is very much useful for R & D Laboratories. We can improve it any point of time, only through study the API key from their wewsite. 
