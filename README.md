@@ -2,7 +2,7 @@
 An In-house python script for downloading the PDB files from RCSB Website directly.
 
 ## Requirements for this script to run
-* Python-3.10.12   
+* Python-3.10.12(verified with this version)   
 * requests   
 * tqdm
 
@@ -33,6 +33,6 @@ python rcsb_pdb_downloader_by_between_dates.py --start 2024-01-01 --end 2024-06-
 4. Save to a custom folder   
 python rcsb_pdb_downloader_by_between_dates.py --start 2024-01-01 --end 2024-06-30 --output-dir /my/data/folder
 
-  Note: It is made as very easy based on their RCSB API key in the main website. It is very much useful for R & D Laboratories. We can improve it any point of time, only through study the API key from their wewsite. 
+  *Note: It is made as very easy based on their RCSB API key in the main website. It is very much useful for R & D Laboratories. We can improve it any point of time, only through study the API key from their website. Thanks to RCSB🙏*
 
 Hence, I have done it successfully!!!✨🫰😍
